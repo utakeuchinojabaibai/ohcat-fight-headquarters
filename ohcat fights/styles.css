@@ -3,9 +3,9 @@ a{
   text-decoration: none;
 }
 #blinkS1 {
-  animation: blinkAnimeS1 2s infinite alternate;
+  animation: blinkAnimeS1 1s infinite alternate;
 }
 @keyframes blinkAnimeS1{
  0%  { color : white  }
- 100%{ color : black  }
+ 100%{ color : blue  }
 }
