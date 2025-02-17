@@ -3,7 +3,7 @@ a{
   text-decoration: none;
 }
 #blinkS1 {
-  animation: blinkAnimeS1 1s infinite alternate;
+  animation: blinkAnimeS1 0.1s infinite alternate;
 }
 @keyframes blinkAnimeS1{
  0%  { color : white  }
