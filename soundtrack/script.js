@@ -5,5 +5,5 @@ btnStart.addEventListener("click", () => {
   music.play();
 });
 btnStop.addEventListener("click", () => {
-  music.pause();
+  music.stop();
 });
