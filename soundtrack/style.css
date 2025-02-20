@@ -1,4 +1,4 @@
-.search-form button {
+button {
     background-color: blue;
     color: white;
     padding: 5px 10px;
@@ -6,6 +6,6 @@
     cursor: pointer;
 }
 
-.search-form button:hover {
+button:hover {
     background-color: darkblue;
 }
