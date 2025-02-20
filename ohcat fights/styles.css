@@ -9,19 +9,3 @@ a{
  0%  { color : white  }
  100%{ color : 0000FF  }
 }
-.search-form input[type="text"] {
-    width: 250px;
-    padding: 5px;
-  }
-
-  .search-form button {
-    background-color: blue;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .search-form button:hover {
-    background-color: darkblue;
-  }
