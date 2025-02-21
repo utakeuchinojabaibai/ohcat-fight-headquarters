@@ -7,21 +7,6 @@
         <script src="script.js"></script>
     </head>
     <body>
-      <div class="audio-controller">
-  <audio src="sample.mp3"></audio>
-  <div class="controls">
-    <div class="row">
-      <button class="toggle" type="button">Play</button>
-      <div class="time"><span class="current-time">0:00</span></div>
-      <input class="range-slider" type="range" name="seek" value="0" step=".1">
-      <div class="time"><span class="duration">0:00</span></div>
-    </div>
-    <div class="row">
-      <button class="mute" type="button">Mute</button>
-      <input class="range-slider" type="range" name="vol" min="0.0" max="1.0" value="1.0" step=".1">
-      <button class="loop" type="button">Loop</button>
-    </div>
-  </div>
-</div>  
+      <audio class="js-audio" src="sample.mp3"></audio>
     </body>
 </html>
