@@ -13,6 +13,7 @@ body{
   background-color: #0d023a;
   color: #fff;
   border-radius: 29px;
+  text-align: center;
 }
  
 .audio-player .controls {
