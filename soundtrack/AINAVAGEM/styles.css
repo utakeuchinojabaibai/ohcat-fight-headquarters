@@ -19,6 +19,7 @@ body{
   flex-wrap: nowrap;
   /* 垂直方向中央揃え */
   align-items: center;
+  text-align: center;
 }
  
 .audio-player .controls button {
