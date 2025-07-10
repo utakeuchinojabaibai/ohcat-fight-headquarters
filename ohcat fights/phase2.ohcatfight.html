@@ -31,7 +31,7 @@ array.forEach(function(value) {
 })
                 var pass = pass.slice(-7,-1);
                 if (pass === null){
- var pass = prompt('phase2一覧はロックされています。 コードを入力してください。コードの入手方法 web版phase1v.0.4.1をクリアする' + cookies);
+ var pass = prompt('phase2一覧はロックされています。 コードを入力してください。コードの入手方法 web版phase1v.0.4.1をクリアする');
                 }
                 if (pass !== null) {
                 if (pass == password) {
@@ -39,7 +39,7 @@ array.forEach(function(value) {
                     document.cookie = "username=wqrbgv; max-age=2419200; path=/";
 
                 } else {
-                    alert('パスワードが違うようです ' + pass);
+                    alert('パスワードが違うようです');
                     unco();
                 }
                 }else {
