@@ -29,6 +29,7 @@ array.forEach(function(value) {
   const content = value.split('=');
   var pass = content[1];
 })
+                var pass = pass.slice(-7,-1);
                 if (pass === null){
  var pass = prompt('phase2一覧はロックされています。 コードを入力してください。コードの入手方法 web版phase1v.0.4.1をクリアする' + cookies);
                 }
