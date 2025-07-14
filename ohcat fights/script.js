@@ -1,9 +1,9 @@
 function toumei(){
 // 要素を取得
   var bun = 1;
-let ele = document.getElementById('a');
+var ele = document.getElementById('a');
 // 現在の display プロパティの値を保持
-const displayOriginal = ele.style.display;
+var displayOriginal = ele.style.display;
 // none に設定して非表示
 ele.style.display = 'none';
 }
