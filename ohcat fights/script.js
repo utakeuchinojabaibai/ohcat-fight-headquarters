@@ -14,6 +14,7 @@ ele.style.display = displayOriginal;
 }
 
 function bunki(){
+  alart ("うい");
 if(bun = 0){
 toumei();
 }else if(bun = 1){
